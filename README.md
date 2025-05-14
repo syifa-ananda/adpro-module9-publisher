@@ -3,3 +3,7 @@ When we kick off the publisher, it sends out five messages in total. Each messag
 
 ## The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 Using `amqp://guest:guest@localhost:5672` in both publisher and subscriber simply points them at the same RabbitMQ server running locally (on port 5672) with the default `guest` credentials. In practice, this makes sure anything the publisher emits lands straight into the very queue our subscriber is watching.
+
+## Running RabbitMQ
+
+![alt text](img/image.png)

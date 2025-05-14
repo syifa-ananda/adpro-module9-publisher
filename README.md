@@ -7,3 +7,7 @@ Using `amqp://guest:guest@localhost:5672` in both publisher and subscriber simpl
 ## Running RabbitMQ
 
 ![alt text](img/image.png)
+
+## Sending and Processing Event
+
+![alt text](img/image2.png)
